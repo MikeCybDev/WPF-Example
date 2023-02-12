@@ -36,5 +36,10 @@ namespace WPF_Example
 
             ThemeManager.Current.ChangeTheme(this, theme);
         }
+
+        private void btnExample_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(DateTime.Now.ToString("yyyy-MM-dd\n\rHH:mm:ss"));
+        }
     }
 }

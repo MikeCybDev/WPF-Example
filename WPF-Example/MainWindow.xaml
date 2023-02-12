@@ -9,5 +9,7 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <Border Background="SkyBlue" BorderBrush="#FF8214C7" BorderThickness="1"></Border>
+        <Button x:Name="btnExample" Width="120" Height="50" Content="DateTime" HorizontalAlignment="Left" Click="btnExample_Click"></Button>
+        <Label Width="200" Height="50" HorizontalAlignment="Left">Example label</Label>
     </StackPanel>
 </controls:MetroWindow>
